@@ -17,6 +17,7 @@ namespace roeey_test
             BuildWebHost(args).Run();
             Console.WriteLine("check");
             Console.WriteLine("fff");
+            Console.WriteLine("ccc");
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
